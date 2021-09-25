@@ -2,6 +2,7 @@ source-repository-package
   type: git
   location: https://github.com/colinhect/hsnoise
   tag: 4ccff11dea7e8d94e6a5fcaf8f43857bd65bd72d
+  --sha256: 054az3r243xp1wrbha2fjbl6syr99765d3rrp5an98lkpmfvxc38
 
 -- get latest th-extras for ghc-9.0.1 compat
 -- when changing these, update the stack.yaml too
@@ -9,10 +10,12 @@ source-repository-package
   type: git
   location: https://github.com/mokus0/th-extras
   tag: 0d050b24ec5ef37c825b6f28ebd46787191e2a2d
+  --sha256: 045f36yagrigrggvyb96zqmw8y42qjsllhhx2h20q25sk5h44xsd
 source-repository-package
   type: git
   location: https://github.com/obsidiansystems/dependent-sum
   tag: 080b089f2951cd5851cee0d62f81d6ac7b1e2028
   subdir: dependent-sum dependent-sum-template
+  --sha256: 0van8l06nq2nnaavx1s7z82faf5bd7iicqppwqrk82qv1j4hswfk
 
 packages: .
